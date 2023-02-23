@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:adjustViewBounds="false"
+        android:src="@drawable/logo1"
+        tools:ignore="MissingConstraints" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="10dp">
+        <Button
+            android:text="Kirim"
+            android:drawableTint="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:drawableRight="@drawable/ic_baseline_send_24"
+            android:background="@color/teal_700"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:clickable="true"
+            android:layout_weight="1"
+            />
+        <Button
+            android:text="Kirim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:drawableRight="@drawable/badge"
+            android:drawableTint="@color/white"
+            android:background="@color/teal_700"
+            android:textColor="#ffffff"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:clickable="true"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+
+</LinearLayout>
